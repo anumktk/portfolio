@@ -1,8 +1,18 @@
 import React from "react";
+import herobg from "../Assets/hero-bg.jpg";
 
 const Skills = () => {
   return (
-    <div className="bg-[#124C81] p-4">
+    // <div className="bg-[#124C81] p-4">
+    <div
+      className="bg-[#124C81] p-4"
+      style={{
+        backgroundImage: `url(${herobg})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+    >
       <h1 className="text-white text-4xl  font-Montserrat  mt-16 m-10 ">
         Skills
       </h1>

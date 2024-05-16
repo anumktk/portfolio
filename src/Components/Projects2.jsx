@@ -10,6 +10,7 @@ import assignment from "../Assets/assignment.png";
 import counterapp from "../Assets/counterapp.PNG";
 import docweb from "../Assets/docweb.png";
 import pizzsweb from "../Assets/pizzaweb.png";
+import herobg from "../Assets/hero-bg.jpg";
 
 function Project2() {
   var settings = {
@@ -49,9 +50,20 @@ function Project2() {
     ],
   };
   return (
-    <div className="bg-[#124C81] p-4">
+    // <div className="bg-[#124C81] p-4">
+    <div
+      className="bg-[#124C81] p-4"
+      style={{
+        backgroundImage: `url(${herobg})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+    >
       <div className=" m-16 pb-12 ">
-        <h2 className=" text-2xl text-[#E2E8F0] pb-5 ml-5">Projects</h2>
+        <h2 className="text-[#0cc0df] md:text-5xl  md:font-extrabold font-semibold text-4xl mb-8 md:mb-16 font-Montserrat mt-4 m-10 ">
+          Projects
+        </h2>
         <div className="slider-container">
           <Slider {...settings}>
             <div>

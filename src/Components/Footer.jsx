@@ -3,8 +3,9 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="bg-sky-950 w-auto">
-      <div className=" border-t border-b border-[#E2E8F0] py-6 ">
+    // <div className="bg-sky-950 w-auto">
+    <div className="bg-gradient-to-b from-slate-900 to to-black  w-auto">
+      <div className=" border-t border-b border-t-[#124b81c7] border-b-black  py-6 ">
         <h3 className="flex items-center justify-center  text-white text-xl">
           Contact Me
         </h3>
@@ -39,8 +40,8 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className=" ml-12 mt-3 pb-3">
-        <p className="text-[#E2E8F0]">
+      <div className="  mt-3 pb-3 flex items-center justify-center">
+        <p className="text-[#E2E8F0] text-center">
           © 2024 Anum Shahana All rights reserved.
         </p>
       </div>
@@ -49,34 +50,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// import React from "react";
-
-// const Footer = () => {
-//   return (
-//     <div className=" bg-sky-900">
-//       <div className="flex flex-col items-center justify-center border-y-2 border-gray-400">
-//         <div className="ml-5 ">
-//           <h2 className="text-white text-3xl mt-5 flex mb-5 ">Contact Me</h2>
-//         </div>
-//         <div className="flex gap-4  ">
-//           {/* List 1 */}
-//           <h1 className="text-white  mb-5">Github</h1>
-//           {/* List 2 */}
-//           <h1 className="text-white  mb-5">Youtube</h1>
-//           {/* List 3 */}
-//           <h1 className="text-white  mb-5">Linkdin</h1>
-//           {/* List 4 */}
-//           <h1 className="text-white  mb-5">Facebook</h1>
-//           {/* List 5 */}
-//           <h1 className="text-white  mb-5">Next.js</h1>
-//         </div>
-//       </div>
-//       <div class="w-full  bg-black bg-opacity-40 p-2 ">
-//         <a className="text-white"> © 2024 Anum Shahana All rights reserved.</a>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Footer;
